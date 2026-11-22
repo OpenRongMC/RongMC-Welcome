@@ -1,24 +1,38 @@
-# RongMC Welcome
+# RongMC 旧版欢迎页
 
-建筑服客户端用的**首次欢迎页**与**可选模组开关**。
+简体中文 · [English](./README.en.md)
 
-## 功能
+建筑服旧客户端的首启欢迎页和可选模组开关。可显示欢迎文案、保存已完成状态，并按整合包提供的目录管理可选客户端 JAR。
 
-- 主菜单首次进入弹出欢迎说明（文案可配置）。
-- 「可选模组」界面：按目录启用/禁用客户端可选 jar，改完可提示重启客户端使生效。
-- 完成欢迎后写入本地配置，避免每次都弹。
+## 下载与安装
 
-## 使用
+- 版本 · [v1.0.0+26.3](https://github.com/OpenRongMC/RongMC-Welcome/releases/tag/v1.0.0%2B26.3) (已发布)
+- 下载文件 · `rongmc-welcome-1.0.0.26.3.jar`
+- 运行环境 · Minecraft Java 26.3, Fabric, Java 25
+- Fabric Loader · `>=0.19.3`
+- Fabric 模组 ID · `rongmc_welcome`
+- JAR 声明的依赖 · [Fabric API](https://modrinth.com/mod/fabric-api)
 
-1. 将本模组放入客户端 `mods/`。
-2. 启动后按界面提示阅读欢迎页，需要时打开可选模组列表。
-3. 配置位于游戏配置目录（见源码 `WelcomeConfig`）。
+把发行 JAR 放入对应实例的 `mods/` 目录。用于明确配套此旧欢迎模组的客户端实例。当前 RongMC 低配整合包的五档设备选择由 RongMC Client 提供。
 
-## 说明
+## 如何验证
 
-- 纯客户端向；不负责服务端玩法。
-- 可选模组列表内容来自内置/配置目录，乱删 jar 可能导致整合包不完整。
+用空配置的测试实例检查首启文案，切换一个可选模组并重启，确认欢迎页状态和启用列表均保存。
 
-## 许可
+## 从源码开始
 
-GPL-3.0（见 `LICENSE`）。Fabric id：`rongmc_welcome`。
+```sh
+./gradlew tasks
+```
+
+先用 Java 25 检查当前源码树提供的任务，再选择对应的构建任务。
+
+## 文档与反馈
+
+- [原 README（旧版指南、贡献者与署名）](https://github.com/OpenRongMC/RongMC-Welcome/blob/fc3c1160e3824082bdac9f8046025029f313e9f7/README.md)
+- [RongMC 客户端与实时导览](https://github.com/OpenRongMC/RongMC-Client)
+- [报告 RongMC 移植问题](https://github.com/OpenRongMC/RongMC-Welcome/issues) · 请附游戏版本、两端 JAR 文件名、复现步骤和相关日志。
+
+## 许可与署名
+
+请参阅本仓库的 [LICENSE](./LICENSE) 及原项目的许可、署名和第三方资源说明。
