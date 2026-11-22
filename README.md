@@ -1,31 +1,24 @@
 # RongMC Welcome
 
-[中文](#中文) | [English](#english)
+建筑服客户端用的**首次欢迎页**与**可选模组开关**。
 
-## 中文
+## 功能
 
-本仓库发布的是 **RongMC** 对 `RongMC Welcome` 的 Minecraft 26.3 Fabric 移植/维护或自研版本。
+- 主菜单首次进入弹出欢迎说明（文案可配置）。
+- 「可选模组」界面：按目录启用/禁用客户端可选 jar，改完可提示重启客户端使生效。
+- 完成欢迎后写入本地配置，避免每次都弹。
 
-- Fabric mod id：`rongmc_welcome`（provides：`rongmc_welcome`）
-- 许可证：**GNU GPL v3.0**
-- 本仓库包含完整源码（orphan 发布，Contributors 仅 ycrrongos）。
-- 部分改动由 vibecoding（AI 辅助编程）完成，并由人工审阅与测试。
-- 贡献者（Contributors）：仅 [ycrrongos](https://github.com/ycrrongos)
+## 使用
 
-### 许可
+1. 将本模组放入客户端 `mods/`。
+2. 启动后按界面提示阅读欢迎页，需要时打开可选模组列表。
+3. 配置位于游戏配置目录（见源码 `WelcomeConfig`）。
 
-以 GNU General Public License v3.0 发布（见 `LICENSE`）。若上游原作另有条款，移植改动部分仍按 GPL-3.0；使用时请同时尊重上游要求。
+## 说明
 
-## English
+- 纯客户端向；不负责服务端玩法。
+- 可选模组列表内容来自内置/配置目录，乱删 jar 可能导致整合包不完整。
 
-**RongMC** Minecraft 26.3 Fabric port / maintenance / original build of `RongMC Welcome`.
+## 许可
 
-- Fabric mod id: `rongmc_welcome` (provides: `rongmc_welcome`)
-- License: **GNU GPL v3.0**
-- This repository includes full source (orphan publish; contributor: ycrrongos only).
-- Some changes were made with vibecoding (AI-assisted coding), then reviewed and tested by humans.
-- Contributors: only [ycrrongos](https://github.com/ycrrongos)
-
-### License
-
-Released under GNU GPL v3.0 (see `LICENSE`). Respect upstream terms where applicable; RongMC changes are GPL-3.0.
+GPL-3.0（见 `LICENSE`）。Fabric id：`rongmc_welcome`。
