@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "dev.rongmc.welcome.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "TitleScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

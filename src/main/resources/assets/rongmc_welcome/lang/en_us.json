@@ -1,0 +1,20 @@
+{
+  "rongmc_welcome.title": "Welcome to RongMC Creative",
+  "rongmc_welcome.open": "Welcome / Optional Mods",
+  "rongmc_welcome.intro": "About",
+  "rongmc_welcome.optional": "Optional Mods",
+  "rongmc_welcome.done": "Continue",
+  "rongmc_welcome.back": "Back",
+  "rongmc_welcome.apply_restart": "Apply & Restart",
+  "rongmc_welcome.preset.visual": "Visual Recommended",
+  "rongmc_welcome.preset.showcase": "Showcase / Recording",
+  "rongmc_welcome.preset.social": "Social Emotes",
+  "rongmc_welcome.preset.none": "Disable All",
+  "rongmc_welcome.enabled": "ON",
+  "rongmc_welcome.disabled": "OFF",
+  "rongmc_welcome.applying": "Applying optional mods…",
+  "rongmc_welcome.restarting": "Applied. Restarting client…",
+  "rongmc_welcome.restart_hint": "Saved, but auto-restart failed — please quit and relaunch manually.",
+  "rongmc_welcome.apply_failed": "Apply failed: %s",
+  "rongmc_welcome.missing_jar": "Jar not shipped in this pack"
+}
