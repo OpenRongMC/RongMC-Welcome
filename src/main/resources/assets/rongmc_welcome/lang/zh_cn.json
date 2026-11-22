@@ -1,0 +1,20 @@
+{
+  "rongmc_welcome.title": "欢迎来到 RongMC 建筑服",
+  "rongmc_welcome.open": "建筑服欢迎 / 可选模组",
+  "rongmc_welcome.intro": "介绍",
+  "rongmc_welcome.optional": "可选模组",
+  "rongmc_welcome.done": "开始游戏",
+  "rongmc_welcome.back": "返回",
+  "rongmc_welcome.apply_restart": "应用并重启",
+  "rongmc_welcome.preset.visual": "推荐观感",
+  "rongmc_welcome.preset.showcase": "展示录制",
+  "rongmc_welcome.preset.social": "社交表情",
+  "rongmc_welcome.preset.none": "全部关闭",
+  "rongmc_welcome.enabled": "已启用",
+  "rongmc_welcome.disabled": "已禁用",
+  "rongmc_welcome.applying": "正在应用可选模组…",
+  "rongmc_welcome.restarting": "已应用，正在重启客户端…",
+  "rongmc_welcome.restart_hint": "已写入开关，但自动重启失败：请手动关闭并重新打开游戏。",
+  "rongmc_welcome.apply_failed": "应用失败：%s",
+  "rongmc_welcome.missing_jar": "整合包未包含该 jar"
+}

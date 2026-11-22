@@ -1,0 +1,105 @@
+{
+  "welcomeTitle": "欢迎来到 RongMC 建筑服",
+  "welcomeBody": [
+    "这是 RongMC 建筑 / 创造服客户端（Minecraft 26.3 · Fabric · MTR 4.0.5）。",
+    "核心建造工具（WorldEdit、Effortless、Macaw、Create、MTR 等）已默认启用。",
+    "下列「可选模组」可按推荐方案调整；改动后需重启游戏才会加载。",
+    "以后可在主菜单点击「建筑服欢迎 / 可选模组」再次打开本页。"
+  ],
+  "presets": [
+    {
+      "id": "visual",
+      "nameKey": "rongmc_welcome.preset.visual",
+      "description": "平滑动作与镜头，适合日常游玩与观赏建筑。",
+      "mods": [
+        "smoothplayeranimations",
+        "smoothcamera",
+        "spatial_gui"
+      ]
+    },
+    {
+      "id": "showcase",
+      "nameKey": "rongmc_welcome.preset.showcase",
+      "description": "观感 + 方块/物品栏小动画，适合录视频展示。",
+      "mods": [
+        "smoothplayeranimations",
+        "smoothcamera",
+        "spatial_gui",
+        "stupid_block_animations",
+        "inventory_interactions"
+      ]
+    },
+    {
+      "id": "social",
+      "nameKey": "rongmc_welcome.preset.social",
+      "description": "表情动作，适合多人摆拍（可选装服务端同步）。",
+      "mods": [
+        "emotecraft"
+      ]
+    },
+    {
+      "id": "none",
+      "nameKey": "rongmc_welcome.preset.none",
+      "description": "关闭全部可选模组。",
+      "mods": []
+    }
+  ],
+  "mods": [
+    {
+      "id": "smoothplayeranimations",
+      "name": "SmoothPlayerAnimations",
+      "description": "平滑玩家动作，录建筑视频更自然。",
+      "filePrefix": "SmoothPlayerAnimations",
+      "modrinth": "smoothplayeranimations",
+      "side": "client"
+    },
+    {
+      "id": "smoothcamera",
+      "name": "Smooth Camera",
+      "description": "平滑相机，观摩与录屏更稳。",
+      "filePrefix": "smoothcamera",
+      "modrinth": "smoothcamera",
+      "side": "client"
+    },
+    {
+      "id": "spatial_gui",
+      "name": "Spatial GUI",
+      "description": "悬浮物品栏/容器界面，建造时视线更干净。",
+      "filePrefix": "spatial-gui",
+      "modrinth": "spatial-gui",
+      "side": "client"
+    },
+    {
+      "id": "stupid_block_animations",
+      "name": "Stupid Block Animations",
+      "description": "方块落地小动画，纯装饰。",
+      "filePrefix": "stupid-block-animations",
+      "modrinth": "stupid-block-animations",
+      "side": "client"
+    },
+    {
+      "id": "inventory_interactions",
+      "name": "Inventory Interactions",
+      "description": "物品栏互动小动画。",
+      "filePrefix": "InventoryInteractions",
+      "modrinth": "inventory-interactions",
+      "side": "client"
+    },
+    {
+      "id": "emotecraft",
+      "name": "Emotecraft",
+      "description": "表情工艺；服务端可选同步。",
+      "filePrefix": "emotecraft",
+      "modrinth": "emotecraft",
+      "side": "client"
+    },
+    {
+      "id": "gui_tween",
+      "name": "GUI Tween",
+      "description": "GUI 过渡动画（整合包已有 SmoothGUI 时可不必开）。",
+      "filePrefix": "guitween",
+      "modrinth": "gui-tween",
+      "side": "client"
+    }
+  ]
+}
